@@ -1,0 +1,130 @@
+body {
+    font-family: Roboto, sans-serif;
+
+}
+
+.header-logo {
+    Font-family: Raleway;
+    font-style: ExtraBold;
+    font-size: 18px;
+    Line-height: 1.16;
+    Letter-spacing: 3%;
+    color: #4D5AE5;
+}
+
+.logo-part {
+    color: #2E2F42;
+}
+
+.header-list-item {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    Letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.header-list-item:hover,
+.header-list-item:focus {
+    color: brown;
+}
+
+.header-address-list {
+    Font-family: Roboto;
+    Font-style: Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+}
+
+.header-address-list:hover,
+.header-address-list:focus {
+    color: brown;
+}
+
+h1 {
+    Font-family: Roboto;
+    Font-style: Bold;
+    Font-size: 56px;
+    Line-height: 1.11;
+    Letter-spacing: 2%;
+    Color: #FFFFFF;
+}
+
+button {
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 1.5;
+    Letter-spacing: 4%;
+    color: #FFFFFF;
+}
+
+.second-text {
+    Font-style: Bold;
+    Font-size: 36px;
+    Line-height: 1.11;
+    Letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.service-name {
+    Font-style: Medium;
+    Font-size: 20px;
+    Line-height: 1.2;
+    Letter-spacing: 2%;
+    Color: #2E2F42;
+}
+
+p {
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 1.5;
+    Letter-spacing: 2%;
+    Color: #434455;
+}
+
+.footer-logo {
+    font-family: Raleway;
+    Font-style: ExtraBold;
+    Font-size: 18px;
+    Line-height: 1.16;
+    Letter-spacing: 3%;
+    Color: #4D5AE5;
+}
+
+.footer-logo-part {
+    color: #F4F4FD;
+}
+
+.text {
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 1.5;
+    Letter-spacing: 2%;
+    Color: #F4F4FD;
+}
+
+.aplication-btn {
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 1.5;
+    Letter-spacing: 4%;
+    Color: #4D5AE5;
+}
+
+.aplication-btn-all {
+    Font-style: Medium;
+    Font-size: 16px;
+    Line-height: 1.5;
+    Letter-spacing: 4%;
+    Color: #FFFFFF;
+}
+
+.aplication-post {
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 1.5;
+    Letter-spacing: 2%;
+    Color: #434455;
+}
