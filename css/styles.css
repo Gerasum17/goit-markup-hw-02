@@ -20,7 +20,7 @@ body {
     list-style-type: none;
 }
 
-.header-logo link{
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -31,7 +31,7 @@ body {
     color: var(--button-text-color);
 }
 
-.logo-part link{
+.logo-part {
     color: var(--second-text-color);
 }
 
@@ -164,7 +164,7 @@ background-color: #FFFFFF;
     background-color: #2e2f42;
 }
 
-.footer-logo link{
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -175,7 +175,7 @@ background-color: #FFFFFF;
     color: var(--button-text-color);
 }
 
-.footer-logo-part link{
+.footer-logo-part {
     color: var(--title-color);
 }
 
