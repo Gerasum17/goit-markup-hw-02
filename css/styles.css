@@ -171,7 +171,7 @@ background-color: #FFFFFF;
     background-color: #2e2f42;
 }
 
-.footer-logo {
+.footer-logo link{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -182,7 +182,7 @@ background-color: #FFFFFF;
     color: var(--button-text-color);
 }
 
-.footer-logo-part {
+.footer-logo-part link{
     color: var(--title-color);
 }
 
