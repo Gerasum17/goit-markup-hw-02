@@ -12,15 +12,15 @@ body {
     background-color: #FFFFFF;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
-ul {
+.list {
     list-style-type: none;
 }
 
-.header-logo {
+.header-logo link{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -31,7 +31,7 @@ ul {
     color: var(--button-text-color);
 }
 
-.logo-part {
+.logo-part link{
     color: var(--second-text-color);
 }
 
@@ -71,7 +71,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
@@ -86,6 +86,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-text-color);
+    background-color: #4D5AE5;
     cursor: pointer;
 }
 
