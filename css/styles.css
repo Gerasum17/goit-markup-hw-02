@@ -21,7 +21,7 @@ body {
 }
 
 .header-logo link{
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -128,7 +128,7 @@ body {
 .people {
 background-color: #F4F4FD;
 }
-.people-list list{
+.people-item{
 background-color: #FFFFFF;
 }
 .people-title {
@@ -165,7 +165,7 @@ background-color: #FFFFFF;
 }
 
 .footer-logo link{
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -189,7 +189,7 @@ background-color: #FFFFFF;
 }
 
 .portfolio-btn-all {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
