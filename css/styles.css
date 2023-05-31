@@ -189,23 +189,7 @@ background-color: #FFFFFF;
     color: var(--title-color);
 }
 
-.portfolio-btn-all {
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--main-text-color);
-    background-color: #F4F4FD;
-    cursor: pointer;
-}
 
-.portfolio-btn-all:hover,
-.portfolio-btn-all:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
 
 .portfolio-btn {
     font-family: 'Roboto', sans-serif;
