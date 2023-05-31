@@ -133,9 +133,11 @@ body {
 }
 
 .people {
+background-color: #F4F4FD;
+}
+.people-list list{
 background-color: #FFFFFF;
 }
-
 .people-title {
     font-style: normal;
     font-weight: 700;
