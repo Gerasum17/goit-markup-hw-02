@@ -1,132 +1,234 @@
+:root {
+    --main-text-color: #FFFFFF;
+    --title-color: #F4F4FD;
+    --second-text-color: #2E2F42;
+    --title-text-color: #434455;
+    --button-text-color: #4D5AE5;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
+}
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .header-logo {
-    Font-family: Raleway;
-    font-style: ExtraBold;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
     font-size: 18px;
-    Line-height: 1.16;
-    Letter-spacing: 3%;
-    color: #4D5AE5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-text-color);
 }
 
 .logo-part {
-    color: #2E2F42;
+    color: var(--second-text-color);
 }
 
-.header-list-item {
-    font-family: Roboto;
+.header-menu-link {
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    Letter-spacing: 2%;
-    color: #2E2F42;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
 }
 
-.header-list-item:hover,
-.header-list-item:focus {
-    color: brown;
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
 }
 
 .header-address-list {
-    Font-family: Roboto;
-    Font-style: Regular;
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
-    color: #434455;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
 
 .header-address-list:hover,
 .header-address-list:focus {
-    color: brown;
+    color: #404bbf;
 }
 
-h1 {
-    Font-family: Roboto;
-    Font-style: Bold;
-    Font-size: 56px;
-    Line-height: 1.11;
-    Letter-spacing: 2%;
-    Color: #FFFFFF;
+.hero {
+    background-color: #2E2F42;
 }
 
-button {
-    Font-style: Medium;
-    Font-size: 16px;
-    Line-height: 1.5;
-    Letter-spacing: 4%;
-    color: #FFFFFF;
+.hero-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.7;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
 }
 
-.second-text {
-    Font-style: Bold;
-    Font-size: 36px;
-    Line-height: 1.11;
-    Letter-spacing: 2%;
-    color: #2E2F42;
+
+.hero-btn {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-text-color);
+    cursor: pointer;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF
+}
+
 
 .service-name {
-    Font-style: Medium;
-    Font-size: 20px;
-    Line-height: 1.2;
-    Letter-spacing: 2%;
-    Color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
 }
 
-p {
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 1.5;
-    Letter-spacing: 2%;
-    Color: #434455;
+.service-item-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.mesenger-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+.people {
+    background: #F4F4FD;
+}
+
+.people-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+.people-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+.people-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.footer {
+    background-color: #2e2f42;
 }
 
 .footer-logo {
-    font-family: Raleway;
-    Font-style: ExtraBold;
-    Font-size: 18px;
-    Line-height: 1.16;
-    Letter-spacing: 3%;
-    Color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--button-text-color);
 }
 
 .footer-logo-part {
-    color: #F4F4FD;
+    color: var(--title-color);
 }
 
-.text {
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 1.5;
-    Letter-spacing: 2%;
-    Color: #F4F4FD;
+.footer-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
 }
 
-.aplication-btn {
-    Font-style: Medium;
-    Font-size: 16px;
-    Line-height: 1.5;
-    Letter-spacing: 4%;
-    Color: #4D5AE5;
+.portfolio-btn-all {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-text-color);
+    background-color: #F4F4FD;
+    cursor: pointer;
 }
 
-.aplication-btn-all {
-    Font-style: Medium;
-    Font-size: 16px;
-    Line-height: 1.5;
-    Letter-spacing: 4%;
-    Color: #FFFFFF;
+.portfolio-btn-all:hover,
+.portfolio-btn-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
-.aplication-post {
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 1.5;
-    Letter-spacing: 2%;
-    Color: #434455;
+.portfolio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-text-color);
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+}
+
+.portfolio-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
